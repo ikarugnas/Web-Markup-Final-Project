@@ -3,39 +3,44 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="lang" content="nl">
-		<meta name="keywords" content="">
-		<meta name="description" content="This is a site about The Netherlands, why a tourist should visit the Netherlands, 
-		jiu jitsu and jiu jitsu schools within the Netherlands.">
+		<meta name="keywords" content="Holland, Jiu jitsu, Nederland, sport, vechtsport, bjj, Brazillian jiu jitsu, sportvereniging">
+		<meta name="description" content="Dit is een site over Nederland, waarom een toerist Nederland zou moeten bezoeken,
+		jiu jitsu en jiu jitsu scholen in Nederland.">
 		<meta name="author" content="Enes Öztürk">
 		<title>Eindopdracht Web Markup</title>
 		<link 
 			rel="stylesheet"
 			type="text/css"
-			href="css.css"
+			href="css/css.css"
 			/>
 	</head>
 	<body>
 	<!--structure 1-->
-		<h1>Nederland and jiu jitsu</h1>
-		<h2>Nederland, waarom een toerist ernaar toe zou moeten gaan, jiu jitsu en jiu jitsu scholen in Nederland.</h2>
-		<!--structure 2-->
-		<nav>
-			<ul>
-				<li><a href="#nederland">Nederland</a></li>
-				<li><a href="#waarom naar nederland">Waarom naar Nederland?</a></li>
-				<li><a href="#jiu jitsu">Jiu jitsu en jiu jitsu scholen</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
+		<header id="mainHeader">
+			<h1>Nederland and jiu jitsu</h1>
+			<h2>Nederland, waarom een toerist ernaar toe zou moeten gaan, jiu jitsu en jiu jitsu scholen in Nederland.</h2>
+			<!--structure 2-->
+			<nav>
+				<ul>
+					<li><a href="#nederland">Nederland</a></li>
+					<li><a href="#waarom naar nederland">Waarom naar Nederland?</a></li>
+					<li><a href="#jiu jitsu">Jiu jitsu en jiu jitsu scholen</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 		<!--structure 3 main content-->
-		<section id="nederland">
+		<section class="text">
 			<header>
-				<img src="img/svg/dutch_flag.svg" 
+				
+			</header>
+			<article id="nederland">
+				<img class="textImage"
+					src="img/svg/dutch_flag.svg" 
 					title="nederlandse flag"
 					alt="Een foto van de Nederlandse vlag."
-				/>
-			</header>
-			<article>
+				/> 
+				<p class="headertext">Nederland</p>
 				<p>
 					Nederland is een land in West-Europa die grenst aan de Noordzee, heeft
 					drie gemeentes in de Caribishe eilanden en heeft België in het zuiden en Duitsland in het oosten als haar
@@ -50,21 +55,24 @@
 				</p>
 			</article>
 			<footer>
-				<img src="img/svg/silhouette_2_windmills.svg"
+				<img class="textImage"
+					src="img/svg/silhouette_2_windmills.svg"
 					title="windmolens in zonsondergang"
 					alt="Een foto van windmolens."
 				/>
 			</footer>
 		</section>
 		<!--structure 4 secondary content-->
-		<section id="waarom naar nederland">
-			<header>
+		<section  id="waarom naar nederland">
+			<header class="headertext">
 				Waarom naar Nederland?
 			</header>
 			<article>
-				<img src="img/svg/amsterdam.svg"
+				<img
+					class="textImage"
+					src="img/svg/amsterdam.svg"
 					title="straat in amsterdam"
-					alt="Een foto van Amsterdam."
+					alt="Een foto van een straat in Amsterdam."
 				/>
 				<p>
 					Nou vraag je het je misschien wel af. Waarom zou ik als toerist ooit naar Nederland willen gaan?
@@ -96,15 +104,16 @@
 				</p>
 			</article>
 			<footer>
-				<img src="img/svg/rotterdam_skyline.svg"
+				<img class="textImage"
+					src="img/svg/rotterdam_skyline.svg"
 					title="de horizon van rotterdam"
 					alt="Een foto van de horizon in Rotterdam."
 				/>
 			</footer>
 		</section>
 		<!--structure 5 sport content-->
-		<section id="jiu jitsu">
-			<header>
+		<section class="text">
+			<header id="jiu jitsu">
 				Jiu jitsu en jiu jitsu scholen.
 			</header>
 			<article>
@@ -121,88 +130,98 @@
 					<li>
 						Hwa-Rang Dragon is een sportvereniging in Haarlem die onder andere Brazilliaanse jiu jitsu lessen aanbiedt.
 						jiu jitsu wordt hier gegeven in de Rickson Gracie stijl. https://www.taekwon.nl/brazilian-jiu-jitsu/
-						<img src="img/svg/man_looking_with_hands_up.svg" 
+					</li>
+					<img class="listImage"
+							src="img/svg/man_looking_with_hands_up.svg" 
 							title="man kijkt met handen omhoog"
 							alt="Een foto van een sporter die naar de camera kijkt."
-						/>
-					</li>
+					/>	
 					<li>
-						<img src="img/svg/men_practicing_sports3.svg"
-							title="mannen die op de grond duelleren"
-							alt="Een foto van twee mannen die aan het duelleren zijn."
-						/>
 						10th planet is een jiu jitsu school die zich bevindt in Amsterdam. Naast jiu jitsu instructeurs hebben ze
 						ook een mma instructeur. https://www.10thplanetjj.amsterdam/
 					</li>
+					<img class="listImage"
+							src="img/svg/men_practicing_sports3.svg"
+							title="mannen die op de grond duelleren"
+							alt="Een foto van twee mannen die aan het duelleren zijn."
+					/>
 					<li>
-						<img src="img/svg/men_practicing_sports2.svg"
-							title="mannen die sport beoefenen"
-							alt="Een foto van 2 mannen die een gevechtssport aan het beoefenen zijn."
-						/>
 						Hikari is een sportvereniging die rond 1958 is opgericht en bevindt zich in Zaandam.
 						De school geeft les in jiu jitsu, maar ook in karate, aikido en judo. https://www.hikari.nl/
 					</li>
+					<img class="listImage"
+							src="img/svg/men_practicing_sports2.svg"
+							title="mannen die sport beoefenen"
+							alt="Een foto van 2 mannen die een gevechtssport aan het beoefenen zijn."
+					/>
 					<li>
-						<img src="img/svg/men_practicing_martial_arts.svg"
-							title="mannen die vechtsport beoefenen"
-							alt="Een foto van een man die gevechtssport beoefenen."
-						/>
 						Gracie Barra Maastricht is een jiu jitsu vereniging in Maastricht. De focus wordt hier gelegd op
 						Braziliaanse jiu jitsu en No Gi grappling. https://www.bjjmaastricht.nl/
 					</li>
+					<img class="listImage"
+							src="img/svg/men_practicing_martial_arts.svg"
+							title="mannen die vechtsport beoefenen"
+							alt="Een foto van een man die gevechtssport beoefenen."
+					/>
 					<li>
-						<img src="img/svg/men_practicing_sports.svg"
-							title="mannen die de sport beoefenen"
-							alt="Een foto van mannen die de gevechtssport aan het beoefenen zijn."
-						/>
 						Sportschool Milder is een school die een vestiging heeft in Arnhem en in Velp. Op beide van deze locaties
 						kun je jit jitsu, judo en zelfverdedigingslessen volgen. https://www.sportschoolmilder.nl/
 					</li>
-					<li>
-						<img src="img/svg/fighters_on_the_mat.svg" 
-							title="vechters op de mat"
-							alt="Een foto van twee vechters op een mat."
-						/>
+					<img class="listImage"
+							src="img/svg/men_practicing_sports.svg"
+							title="mannen die de sport beoefenen"
+							alt="Een foto van mannen die de gevechtssport aan het beoefenen zijn."
+					/>
+					<li>					
 						Jiu jitsu factory Nijmegen is een sportvereniging in Nijmegen, Gelderland. Er wordt hier
 						Brazilliaanse jiu jitsu gegeven. https://www.bjj-nijmegen.nl/
 					</li>
-					<li>
-						<img src="img/svg/2_men_on_the_ground.svg"
-							title="2 mannen op de grond"
-							alt="Een foto van 2 mannen die op de grond zijn."
-						/>
+					<img class="listImage"
+							src="img/svg/fighters_on_the_mat.svg" 
+							title="vechters op de mat"
+							alt="Een foto van twee vechters op een mat."
+					/>
+					<li>				
 						Sportschool Geelhoed is een sportschool in Zeeland. De sportschool is opgericht in September 1962.
 						https://www.sportschoolgeelhoed.nl/jiu-jitsun
 					</li>
-					<li>
-						<img src="img/svg/chokehold.svg"
-							title="wurggreep"
-							alt="Een foto van een man die de andere man in een wurggreep heeft."
-						/>
+					<img class="listImage"
+							src="img/svg/2_men_on_the_ground.svg"
+							title="2 mannen op de grond"
+							alt="Een foto van 2 mannen die op de grond zijn."
+					/>
+					<li>						
 						Brazillian Jiu Jitsu Rotterdam is een sportvereniging in Rotterdam. De vereniging
 						is opgericht in Maart 2000. http://www.bjjrotterdam.nl/
 					</li>
-					<li>
-						<img src="img/svg/instructor_and_boy.svg"
-							title="instructeur en jongen"
-							alt="Een foto van een instructeur en een jongen die aan het trainen zijn."
-						/>
+					<img class="listImage"
+							src="img/svg/chokehold.svg"
+							title="wurggreep"
+							alt="Een foto van een man die de andere man in een wurggreep heeft."
+					/>
+					<li>						
 						Jiu Jitsu Kenmei is een jiu jitsu school in Harlingen. De school geeft les aan volwassenen en jeugd vanaf
 						12 jaar. http://www.jiujitsu-kenmei.nl/jiu-jitsu-school/
 					</li>
+					<img class="listImage"
+							src="img/svg/instructor_and_boy.svg"
+							title="instructeur en jongen"
+							alt="Een foto van een instructeur en een jongen die aan het trainen zijn."
+					/>
 					<li>
-						<img src="img/svg/man_in_hold.svg"
-							title="man in houdgreep"
-							alt="Een foto van een man die in een houding is geklemd."
-						/>
 						Brazilian Jiu Jitsu Academy Amsterdam is een sportschool die is opgericht in Juni 2014. Er wordt hier
 						Braziliaanse jiu jitsu gegeven. https://budoboot.nl/jiu-jitsu/
 					</li>
+					<img class="listImage"
+							src="img/svg/man_in_hold.svg"
+							title="man in houdgreep"
+							alt="Een foto van een man die in een houding is geklemd."
+					/>
 				</ol>
 			</footer>
 		</section>
 		<!--structure 6 referral content-->
-		<aside>
+		<aside "class="text">
 			<header>
 				Bij
 				<a href="https://www.taekwon.nl/brazilian-jiu-jitsu/">Hwa-Rang Dragon</a>
@@ -219,12 +238,13 @@
 		<!--has to have an actual link-->
 		<form
 		id="contact"
+		class="text"
 		action="http://witan.nl/inholland/testform.php"
 		method ="post"
 		autocomplete="on"
 		>
-		<fieldset>
-			<legend>
+		<fieldset id="contact">
+			<legend class="text">
 				Contactformulier
 			</legend>
 			<label for="name">
@@ -258,6 +278,14 @@
 		</fieldset>
 		</form>
 		<!--structure 8-->
+		<section id=cookieConsent>
+			<p>
+				Deze website maakt gebruik van cookies. Gaat u hiermee akkoord?
+			</p>
+			<button id="button">
+				Ik ga hiermee akkoord.
+			</button>
+		</section>
 		<footer>
 			<p>Deze website is gemaakt door Enes Öztürk. &copy; copyright 2019</p>
 		</footer>

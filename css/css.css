@@ -1,8 +1,80 @@
-@css
+@font-face
+	{
+	font-family: 'Berlin-Sans-FB';
+	src: url('BerlinSansFB.eot');
+	src: url('BerlinSansFB.eot?#iefix') format('embedded-opentype'),
+	url('BerlinSansFB.woff2') format('woff2'),
+	url('BerlinSansFB.woff') format('woff');
+	}
 
-/* gebruikte kleuren zijn #000000, #444444, #70707070, #AAAAAA, #F5F5F5, #FFFFFF, #2699FB.*/
-/* gebruikte fonts zijn	Arial op 80, 63, 35, 30, 25, en 15 pt en Berlin Sans FB op 80 pt.*/
 body
 	{
-	background-color:#444444;
+	/* gebruikte kleuren zijn #000000, #444444, #70707070, #AAAAAA, #F5F5F5, #FFFFFF, #2699FB.*/
+	/* gebruikte fonts zijn	Arial op 80, 63, 35, 30, 25, en 15 pt en Berlin Sans FB op 80 pt.*/
+	font-family: Arial, Berlin-Sans-FB, Verdana, Helvetica, sans-serif;
+	font-size: 15pt;
+	background-color:#000000;
+	margin: 30px;
+	/*height:float;
+	width:float;
+	position:absolute;*/
+	}
+
+.text,p,header,article,section,aside,footer
+	{
+	background-color:#F5F5F5;
+	text-align: left;
+	margin: 1em;
+	}
+	
+.headertext
+	{
+	margin: 1em;
+	}
+
+.textImage
+	{
+	width: 20em;
+	height: 10em;
+	margin: 1em;
+	border: 1em;
+	padding: 1em;
+	float: right;
+	position: relative;
+	clear: both;
+	}
+
+.listImage
+	{
+	width: 10em;
+	height: 10em:
+	float: right;
+	position: relative;
+	}
+
+#mainHeader
+	{
+	background-color: #FFFFFF;
+	}
+
+li:nth-child(odd)
+	{
+	background-color: #F5F5F5;
+	}
+
+li:nth-child(even)
+	{
+	 : #2699FB;
+	}
+	
+#cookieConsent
+	{
+	float: bottom;
+	height: 20em;
+	z-index: 1; 
+	}
+	
+#cookieConsent:onclick
+	{
+	z-index: -1;
 	}
