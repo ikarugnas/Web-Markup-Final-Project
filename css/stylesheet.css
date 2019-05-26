@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Monsterrat|Roboto|Rubik|Nunito');
+@font-face {
+	font-family: "berlinsansfb";
+	src:url(bjj-nederland.com/621948/fonts/berlinsansfb.ttf) ;
+}
+
+body
+	{
+	/* gebruikte kleuren zijn #000000, #444444, #70707070, #AAAAAA, #F5F5F5, #FFFFFF, #2699FB.*/
+	font-family: Arial, Monsterrat, Roboto, Rubik, Nunito, berlinsansfb, Verdana, Helvetica, sans-serif;
+	font-size: 15pt;
+	background-color:#000000;
+	margin: 30px;
+	}
+
+.text,p,header,article,section,aside,footer
+	{
+	font-family: Arial, Monsterrat, Roboto, Rubik, Nunito, berlinsansfb, Verdana, Helvetica, sans-serif;
+	background-color:#F5F5F5;
+	text-align: left;
+	margin: 1em;
+	}
+	
+.headertext	
+	{
+	margin: 1em;
+	}
+
+.textImage
+	{
+	width: 20em;
+	height: 10em;
+	margin: 1em;
+	border: 1em;
+	padding: 1em;
+	float: right;
+	position: relative;
+	clear: both;
+	}
+
+.listImage
+	{
+	width: 10em;
+	height: 10em;
+	position: relative;
+	}
+
+#introvideo
+	{
+	position : fixed;
+	bottom : 0;
+	right : 0;
+	min-width : 100%;
+	min-height : 100%;
+	z-index : -1;
+	}
+
+#mainHeader
+	{
+	background-color: #FFFFFF;
+	}
+
+#cookieConsent
+	{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	z-index: 1;
+	background-color : #F5F5F5;
+	}
+	

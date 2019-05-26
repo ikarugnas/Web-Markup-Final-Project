@@ -1,2 +1,3 @@
-User-agent:*
+User-agent: *
 Disallow: /forbidden
+Sitemap: http://bjj-nederland.com/621948/sitemap.xml
